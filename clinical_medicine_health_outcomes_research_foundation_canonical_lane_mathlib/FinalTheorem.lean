@@ -1,0 +1,9 @@
+import clinical_medicine_health_outcomes_research_foundation_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace clinical_medicine_health_outcomes_research_foundation_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end clinical_medicine_health_outcomes_research_foundation_canonical_lane_mathlib
+end HautevilleHouse
